@@ -1,5 +1,5 @@
 package com.carsdirect.model;
 
-public class CpVendorConfigZip {
+public class CpVendorConfigZipCode {
 
 }
