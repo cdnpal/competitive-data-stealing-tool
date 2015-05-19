@@ -1,4 +1,4 @@
-package com.carsdirect.cd.feed;
+package com.carsdirect.cd.feeds;
 
 public class TrueCarProprietaryRegionalPricingData {
 
