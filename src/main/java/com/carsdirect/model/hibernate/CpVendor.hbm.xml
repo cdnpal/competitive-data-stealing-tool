@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25 April 2011 7:52:33 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.carsdirect.model.CpVendor" table="CP_VENDOR">
+		<id name="CpVendorID" type="java.lang.Integer">
+			<column name="CP_VENDOR_ID" />
+			<generator class="identity" />
+		</id>
+		<property name="VendorID" type="integer">
+			<column name="VENDOR_ID" length="10" not-null="true" unique="true" />
+		</property>
+		<property name="Name" type="string">
+			<column name="NAME" length="10" not-null="true" unique="true" />
+		</property>
+		<property name="Description" type="string">
+			<column name="DESCRIPTION" length="20" not-null="true" unique="true" />
+		</property>
+		<property name="DateAdded" type="java.util.date">
+			<column name="DATE_ADDED" length="20" not-null="true" unique="true" />
+		</property>
+		<property name="DateUpdated" type="java.util.date">
+			<column name="DATE_Updated" length="20" not-null="true" unique="true" />
+		</property>
+	</class>
+</hibernate-mapping>
