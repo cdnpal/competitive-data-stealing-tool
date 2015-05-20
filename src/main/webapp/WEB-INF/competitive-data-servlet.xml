@@ -44,6 +44,10 @@
     For Regional Up Front Pricing Data from TrueCar in Zipcode 124345 for Volvo
     http://tomcat/services/v1/getAllCompetitorData?vendorId=13-TrueCar&zipcode=12345&make=volvo
     
+    Tip: The original application had a secret key to prevent it from being launched
+    		unintentionally by the Internet Brands NOC. How they loved to do things 
+    		unintentionally.
+    
     Tip: The service paths do not simply pull data from services, 
     		they bypass authentication and security
     		restrictions by simple invocation. 
