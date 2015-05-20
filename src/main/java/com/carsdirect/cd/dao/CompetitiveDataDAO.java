@@ -6,7 +6,7 @@ public class CompetitiveDataDAO {
 		/*
 		 * Initialize the Application Context here
 		 * 
-		 * CompetitiveDataContext competitiveDataContext = (CompetitiveDataContext)new AppContext("CompetitiveData");
+		 * CompetitiveDataContext competitiveDataContext = (CompetitiveDataContext)new AppContext("CompetitiveDataSessionFactory");
 		 */
 	}
 	
