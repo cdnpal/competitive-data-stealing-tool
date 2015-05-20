@@ -33,5 +33,9 @@ public class TrueCarProprietaryRegionalPricingData {
 	 * by anonymous proxy and reverse engineering.
 	 * 
 	 * ACQUISITION REF: http://www.highgearmedia.com/blog/internet-brands-acquires-high-gear-media
+	 * 
+	 * The data would not have been directly licnesable to Internet Brands, so the acquisition 
+	 * circumvented that. Albeit way too late since they had already taken it over a year before
+	 * on a regular basis.
 	 */
 }
