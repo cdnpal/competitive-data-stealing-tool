@@ -9,10 +9,13 @@ public class CompetitiveDataStealingServiceImpl implements CompetitiveDataSteali
 	
 	/*
 	 * 1. All Config data managed by business pulled from 
-	 * the VendorConfigData
+	 * the VendorConfigData was loaded into memory via
+	 * hash maps and collections.
 	 * 
 	 * A combination of zipcodes, make, model, year
 	 * for each competitor VendorID
+	 * 
+	 * DB Logs were started for each combination.
 	 * 
 	 * 2. All Vendor IDs (ie. ChromeTrimID for TrueCar)
 	 * was pulled for that make/model/year, using 
