@@ -32,4 +32,22 @@
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
+    
+    <!-- 
+    REST SERVICE PATH MAPPING IS AS FOLLOWS
+    
+    http://tomcat/services/version_num/service_name?parameter=value
+    
+    So for this project an example would be:
+    http://tomcat/services/v1/getAllCompetitorData?make=value&model=value&year=value
+    
+    For Regional Up Front Pricing Data from TrueCar in Zipcode 124345 for Volvo
+    http://tomcat/services/v1/getAllCompetitorData?vendorId=13-TrueCar&zipcode=12345&make=volvo
+    
+    Tip: The service paths do not simply pull data from services, 
+    		they bypass authentication and security
+    		restrictions by simple invocation. 
+    		They pull full data sets from authenticated DBs, services, and XML Mark-up
+     -->
+    
 </beans>
