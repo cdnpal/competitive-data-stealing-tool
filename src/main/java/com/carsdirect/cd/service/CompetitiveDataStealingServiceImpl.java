@@ -1,5 +1,5 @@
 package com.carsdirect.cd.service;
 
-public interface CompetitiveDataStealingServiceImpl {
+public class CompetitiveDataStealingServiceImpl implements CompetitiveDataStealingService {
 
 }
